@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         Cast()
 
         buttonShowPopupMenu.setOnClickListener {
-            showPopMenu.showPopMenu(this, buttonShowPopupMenu)
+            showPopMenu.showPopMenu(this, it)
         }
 
     }
